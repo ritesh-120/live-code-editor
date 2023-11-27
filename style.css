@@ -82,3 +82,39 @@ iframe{
     font-size: 1.3rem;
     animation: pound 0.35s infinite alternate;
   }
+
+
+/* Media Queries start */
+@media (max-width: 450px) {
+body{
+    height: 1100px;
+    /* width: 100%; */
+}
+.code{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.code-editor{
+    height: 1200px;
+    width: auto;
+}
+textarea{
+    width: 80vw;
+    height: 200px;
+}
+h3{
+    margin: 0px;
+    width: 100vw;
+    margin-left: 0px;
+}
+iframe{
+    height: 100px;
+    border: 0;
+    outline: 0;
+}
+.footer .credit{
+    font-size: 15px;
+}
+}
