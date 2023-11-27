@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppind', sans-serif;
+    background: #454545;
+}
+
+.body{
+    /* background: #454545; */
+    height: 100vh;
+    width: 100%;
+}
+
+.code-editor{
+    height: 100vh;
+    width: 100%;
+    background: #454545;
+    display: flex;
+    flex-direction: column;
+}
+
+.code, iframe{
+    flex-basis: 50%;
+}
+
+.code{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-basis: row;
+}
+
+textarea{
+    background: #1f1f1f;
+    color: #fff;
+    margin: 20px;
+    width: 385px;
+    height: 80%;
+    border: 0;
+    outline: 0;
+}
+
+h3 i{
+    margin-left: 7px;
+    margin-right: 10px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: #fff;
+    background: #000;
+    margin: 20px 20px -20px 20px;
+}
+
+iframe{
+    margin: 20px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+}
+
+.footer .credit {
+    background: #454545;
+    padding: .5rem 0 0 0;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    border-top: 0.1rem solid #fff3;
+  }
+  .footer .credit a {
+    color: #ffae00;
+  }
+  .footer .fa {
+    color: #e90606;
+    margin: 0 0.3rem;
+    font-size: 1.3rem;
+    animation: pound 0.35s infinite alternate;
+  }
